@@ -1,0 +1,464 @@
+{
+  "sports": [
+    {
+      "id": 1,
+      "name": "Football",
+      "matches": [
+        {
+          "id": 101,
+          "date": "2024-08-23",
+          "competition": "World Cup 2022",
+          "teams": [
+            {
+              "name": "Brazil",
+              "score": 3,
+              "logo": "brazil_logo_url"
+            },
+            {
+              "name": "Argentina",
+              "score": 1,
+              "logo": "argentina_logo_url"
+            }
+          ],
+          "time": "Full Time",
+          "notification": true
+        },
+        {
+          "id": 102,
+          "date": "2024-08-24",
+          "competition": "Premier League",
+          "teams": [
+            {
+              "name": "Liverpool",
+              "score": 2,
+              "logo": "liverpool_logo_url"
+            },
+            {
+              "name": "Manchester City",
+              "score": 2,
+              "logo": "mancity_logo_url"
+            }
+          ],
+          "time": "Full Time",
+          "notification": false
+        },
+        {
+          "id": 103,
+          "date": "2024-08-25",
+          "competition": "La Liga",
+          "teams": [
+            {
+              "name": "Real Madrid",
+              "score": 1,
+              "logo": "realmadrid_logo_url"
+            },
+            {
+              "name": "Barcelona",
+              "score": 3,
+              "logo": "barcelona_logo_url"
+            }
+          ],
+          "time": "Full Time",
+          "notification": true
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Basketball",
+      "matches": [
+        {
+          "id": 201,
+          "date": "2024-08-23",
+          "competition": "NBA Finals",
+          "teams": [
+            {
+              "name": "Los Angeles Lakers",
+              "score": 98,
+              "logo": "lakers_logo_url"
+            },
+            {
+              "name": "Miami Heat",
+              "score": 96,
+              "logo": "miamiheat_logo_url"
+            }
+          ],
+          "time": "Full Time",
+          "notification": true
+        },
+        {
+          "id": 202,
+          "date": "2024-08-24",
+          "competition": "EuroLeague",
+          "teams": [
+            {
+              "name": "CSKA Moscow",
+              "score": 85,
+              "logo": "cskamoscow_logo_url"
+            },
+            {
+              "name": "Real Madrid",
+              "score": 80,
+              "logo": "realmadrid_basketball_logo_url"
+            }
+          ],
+          "time": "Full Time",
+          "notification": false
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Tennis",
+      "matches": [
+        {
+          "id": 301,
+          "date": "2024-08-23",
+          "competition": "Wimbledon",
+          "teams": [
+            {
+              "name": "Roger Federer",
+              "score": 3,
+              "logo": "federer_logo_url"
+            },
+            {
+              "name": "Rafael Nadal",
+              "score": 2,
+              "logo": "nadal_logo_url"
+            }
+          ],
+          "time": "Full Time",
+          "notification": true
+        },
+        {
+          "id": 302,
+          "date": "2024-08-24",
+          "competition": "US Open",
+          "teams": [
+            {
+              "name": "Novak Djokovic",
+              "score": 3,
+              "logo": "djokovic_logo_url"
+            },
+            {
+              "name": "Andy Murray",
+              "score": 1,
+              "logo": "murray_logo_url"
+            }
+          ],
+          "time": "Full Time",
+          "notification": false
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Cricket",
+      "matches": [
+        {
+          "id": 401,
+          "date": "2024-08-23",
+          "competition": "ICC World Cup",
+          "teams": [
+            {
+              "name": "India",
+              "score": 250,
+              "logo": "india_logo_url"
+            },
+            {
+              "name": "Australia",
+              "score": 240,
+              "logo": "australia_logo_url"
+            }
+          ],
+          "time": "Full Time",
+          "notification": true
+        },
+        {
+          "id": 402,
+          "date": "2024-08-24",
+          "competition": "Ashes",
+          "teams": [
+            {
+              "name": "England",
+              "score": 300,
+              "logo": "england_logo_url"
+            },
+            {
+              "name": "Australia",
+              "score": 310,
+              "logo": "australia_logo_url"
+            }
+          ],
+          "time": "Full Time",
+          "notification": false
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Hockey",
+      "matches": [
+        {
+          "id": 501,
+          "date": "2024-08-23",
+          "competition": "NHL Finals",
+          "teams": [
+            {
+              "name": "Chicago Blackhawks",
+              "score": 4,
+              "logo": "blackhawks_logo_url"
+            },
+            {
+              "name": "Tampa Bay Lightning",
+              "score": 2,
+              "logo": "lightning_logo_url"
+            }
+          ],
+          "time": "Full Time",
+          "notification": true
+        },
+        {
+          "id": 502,
+          "date": "2024-08-24",
+          "competition": "World Cup of Hockey",
+          "teams": [
+            {
+              "name": "Canada",
+              "score": 5,
+              "logo": "canada_logo_url"
+            },
+            {
+              "name": "USA",
+              "score": 3,
+              "logo": "usa_logo_url"
+            }
+          ],
+          "time": "Full Time",
+          "notification": false
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Rugby",
+      "matches": [
+        {
+          "id": 601,
+          "date": "2024-08-23",
+          "competition": "Six Nations",
+          "teams": [
+            {
+              "name": "England",
+              "score": 15,
+              "logo": "england_rugby_logo_url"
+            },
+            {
+              "name": "Wales",
+              "score": 20,
+              "logo": "wales_logo_url"
+            }
+          ],
+          "time": "Full Time",
+          "notification": true
+        },
+        {
+          "id": 602,
+          "date": "2024-08-24",
+          "competition": "Rugby Championship",
+          "teams": [
+            {
+              "name": "New Zealand",
+              "score": 25,
+              "logo": "nz_logo_url"
+            },
+            {
+              "name": "South Africa",
+              "score": 22,
+              "logo": "sa_logo_url"
+            }
+          ],
+          "time": "Full Time",
+          "notification": false
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Baseball",
+      "matches": [
+        {
+          "id": 701,
+          "date": "2024-08-23",
+          "competition": "MLB Finals",
+          "teams": [
+            {
+              "name": "New York Yankees",
+              "score": 6,
+              "logo": "yankees_logo_url"
+            },
+            {
+              "name": "Boston Red Sox",
+              "score": 4,
+              "logo": "redsox_logo_url"
+            }
+          ],
+          "time": "Full Time",
+          "notification": true
+        },
+        {
+          "id": 702,
+          "date": "2024-08-24",
+          "competition": "World Series",
+          "teams": [
+            {
+              "name": "Houston Astros",
+              "score": 3,
+              "logo": "astros_logo_url"
+            },
+            {
+              "name": "Los Angeles Dodgers",
+              "score": 7,
+              "logo": "dodgers_logo_url"
+            }
+          ],
+          "time": "Full Time",
+          "notification": false
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "American Football",
+      "matches": [
+        {
+          "id": 801,
+          "date": "2024-08-23",
+          "competition": "Super Bowl",
+          "teams": [
+            {
+              "name": "Kansas City Chiefs",
+              "score": 31,
+              "logo": "chiefs_logo_url"
+            },
+            {
+              "name": "San Francisco 49ers",
+              "score": 27,
+              "logo": "49ers_logo_url"
+            }
+          ],
+          "time": "Full Time",
+          "notification": true
+        },
+        {
+          "id": 802,
+          "date": "2024-08-24",
+          "competition": "AFC Championship",
+          "teams": [
+            {
+              "name": "Buffalo Bills",
+              "score": 28,
+              "logo": "bills_logo_url"
+            },
+            {
+              "name": "New England Patriots",
+              "score": 24,
+              "logo": "patriots_logo_url"
+            }
+          ],
+          "time": "Full Time",
+          "notification": false
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Volleyball",
+      "matches": [
+        {
+          "id": 901,
+          "date": "2024-08-23",
+          "competition": "FIVB World Championship",
+          "teams": [
+            {
+              "name": "Brazil",
+              "score": 3,
+              "logo": "brazil_volleyball_logo_url"
+            },
+            {
+              "name": "Italy",
+              "score": 2,
+              "logo": "italy_volleyball_logo_url"
+            }
+          ],
+          "time": "Full Time",
+          "notification": true
+        },
+        {
+          "id": 902,
+          "date": "2024-08-24",
+          "competition": "Olympics",
+          "teams": [
+            {
+              "name": "USA",
+              "score": 3,
+              "logo": "usa_volleyball_logo_url"
+            },
+            {
+              "name": "Russia",
+              "score": 1,
+              "logo": "russia_volleyball_logo_url"
+            }
+          ],
+          "time": "Full Time",
+          "notification": false
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Golf",
+      "matches": [
+        {
+          "id": 1001,
+          "date": "2024-08-23",
+          "competition": "Masters Tournament",
+          "teams": [
+            {
+              "name": "Tiger Woods",
+              "score": 280,
+              "logo": "tigerwoods_logo_url"
+            },
+            {
+              "name": "Phil Mickelson",
+              "score": 285,
+              "logo": "mickelson_logo_url"
+            }
+          ],
+          "time": "Full Time",
+          "notification": true
+        },
+        {
+          "id": 1002,
+          "date": "2024-08-24",
+          "competition": "US Open",
+          "teams": [
+            {
+              "name": "Rory McIlroy",
+              "score": 276,
+              "logo": "mcilroy_logo_url"
+            },
+            {
+              "name": "Brooks Koepka",
+              "score": 278,
+              "logo": "koepka_logo_url"
+            }
+          ],
+          "time": "Full Time",
+          "notification": false
+        }
+      ]
+    }
+  ]
+}
+
